@@ -98,3 +98,9 @@ executable problem-5
     hs-source-dirs:   problem-5
     build-depends:    Numbers >= 0.2.1 && < 0.3
 
+executable problem-6
+    import:           bases
+                    , warnings
+    main-is:          main.hs
+    hs-source-dirs:   problem-6
+
