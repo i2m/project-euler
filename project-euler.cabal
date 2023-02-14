@@ -123,6 +123,13 @@ executable problem-9
     main-is:          main.hs
     hs-source-dirs:   problem-9
 
+executable problem-10
+    import:           bases
+                    , warnings
+    main-is:          main.hs
+    hs-source-dirs:   problem-10
+    build-depends:    project-euler
+
 library
     import:           bases
                     , warnings
