@@ -85,3 +85,9 @@ executable problem-3
     hs-source-dirs:   problem-3
     build-depends:    streaming >= 0.2.3 && < 0.3
 
+executable problem-4
+    import:           bases
+                    , warnings
+    main-is:          main.hs
+    hs-source-dirs:   problem-4
+
