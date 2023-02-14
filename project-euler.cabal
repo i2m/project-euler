@@ -104,3 +104,25 @@ executable problem-6
     main-is:          main.hs
     hs-source-dirs:   problem-6
 
+executable problem-7
+    import:           bases
+                    , warnings
+    main-is:          main.hs
+    hs-source-dirs:   problem-7
+    build-depends:    project-euler
+
+library
+    import:           bases
+                    , warnings
+    exposed-modules:  Data.Numbers.Primes
+    hs-source-dirs:   lib
+
+test-suite project-euler-test
+    import:           bases
+                    , warnings
+    type:             exitcode-stdio-1.0
+    hs-source-dirs:   test
+    main-is:          test.hs
+    build-depends:    project-euler
+                    , hspec
+
