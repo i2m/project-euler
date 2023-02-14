@@ -111,6 +111,12 @@ executable problem-7
     hs-source-dirs:   problem-7
     build-depends:    project-euler
 
+executable problem-8
+    import:           bases
+                    , warnings
+    main-is:          main.hs
+    hs-source-dirs:   problem-8
+
 library
     import:           bases
                     , warnings
