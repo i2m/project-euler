@@ -117,6 +117,12 @@ executable problem-8
     main-is:          main.hs
     hs-source-dirs:   problem-8
 
+executable problem-9
+    import:           bases
+                    , warnings
+    main-is:          main.hs
+    hs-source-dirs:   problem-9
+
 library
     import:           bases
                     , warnings
